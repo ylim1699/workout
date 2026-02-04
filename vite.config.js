@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: "/workout/", 
+  base: "/workout/",
   root: "src/",
 
   build: {
@@ -13,7 +13,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: resolve(__dirname, "src/index.html"),
-      }
-    }
-  }
+      },
+    },
+  },
 });

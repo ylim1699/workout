@@ -1,0 +1,20 @@
+1. A workout app with the basics already there.
+
+2. What sets it apart is taht you don't have to hope that it has all the workouts you are looking for. 
+You can create your own custom workout or add a workout you see from the internet and experiment on how it affects
+your fitness goals. Strenght, athletic abilities, speed, endurance etc. 
+
+page where you can create workout templates
+
+templates have routine page you can customize a single workout routine
+
+Workout routine allows you to add your own customized workouts:
+link to video or shorts from youtube. 
+
+each templates and routine has a graph that helps you keep track of how it affects the different
+aspects of your fitness goals. How much can you lift after doing this routine for 1 month, how much weight do you gain?
+
+AI integration so that you can ask about a certain workout and gain greater feedback.
+
+integration with real health apps such as samsung health later. 
+

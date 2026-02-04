@@ -1,29 +1,29 @@
 :root {
-    --font-heading: 'Space Grotesk', sans-serif;
-    --font-body: 'Inter', sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
-    background: linear-gradient(
-        -45deg,
-        rgb(0, 6, 59),
-        rgb(7, 0, 36),
-        #260d3d,
-        rgb(34, 0, 34)
-    );
+  background: linear-gradient(
+    -45deg,
+    rgb(0, 6, 59),
+    rgb(7, 0, 36),
+    #260d3d,
+    rgb(34, 0, 34)
+  );
 
-    background-size: 400% 400%;
+  background-size: 400% 400%;
 
-    animation: gradient-cascade 15s ease infinite;
+  animation: gradient-cascade 15s ease infinite;
 
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 @keyframes gradient-cascade {
@@ -39,48 +39,48 @@
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 
-    padding-top: 50px;
-    width: 100%;
+  padding-top: 50px;
+  width: 100%;
 
-    font-size: 2rem;
-    font-family: var(--font-heading);
+  font-size: 2rem;
+  font-family: var(--font-heading);
 }
 
 main {
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-container nav ul{
-    display: flex;
-    gap: 40px;
+.nav-container nav ul {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-container li {
-    list-style: none;
+  list-style: none;
 }
 
-.nav-container li a{
-    display: inline-block;
-    background-color: white;
+.nav-container li a {
+  display: inline-block;
+  background-color: white;
 
-    text-decoration: none;
-    color: black;
-    font-family: var(--font-body);
-    font-weight: 600;
-    padding: 20px 30px;
-    border-radius: 12px;
-    
-    transition: transform 0.3s ease;
+  text-decoration: none;
+  color: black;
+  font-family: var(--font-body);
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 12px;
+
+  transition: transform 0.3s ease;
 }
 
 .nav-container a:hover {
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
