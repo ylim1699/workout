@@ -1,0 +1,55 @@
+{
+  "upper_body_categories": [
+    {
+      "type": "Horizontal Push",
+      "description": "Moving weight away from the chest.",
+      "workouts": [
+        { "id": "hp1", "name": "Barbell Bench Press", "equipment": "Barbell, Bench", "difficulty": "Intermediate" },
+        { "id": "hp2", "name": "Dumbbell Flyes", "equipment": "Dumbbells, Bench", "difficulty": "Beginner" },
+        { "id": "hp3", "name": "Push-Ups", "equipment": "Bodyweight", "difficulty": "Beginner" },
+        { "id": "hp4", "name": "Incline Chest Press", "equipment": "Machine", "difficulty": "Beginner" }
+      ]
+    },
+    {
+      "type": "Horizontal Pull",
+      "description": "Pulling weight toward the torso.",
+      "workouts": [
+        { "id": "hl1", "name": "Bent-Over Barbell Rows", "equipment": "Barbell", "difficulty": "Advanced" },
+        { "id": "hl2", "name": "Seated Cable Rows", "equipment": "Cable Machine", "difficulty": "Beginner" },
+        { "id": "hl3", "name": "Single-Arm Dumbbell Rows", "equipment": "Dumbbells", "difficulty": "Intermediate" },
+        { "id": "hl4", "name": "Chest-Supported Rows", "equipment": "Dumbbells, Bench", "difficulty": "Intermediate" }
+      ]
+    },
+    {
+      "type": "Vertical Push",
+      "description": "Pushing weight overhead.",
+      "workouts": [
+        { "id": "vp1", "name": "Standing Military Press", "equipment": "Barbell", "difficulty": "Advanced" },
+        { "id": "vp2", "name": "Seated Dumbbell Shoulder Press", "equipment": "Dumbbells", "difficulty": "Intermediate" },
+        { "id": "vp3", "name": "Arnold Press", "equipment": "Dumbbells", "difficulty": "Intermediate" },
+        { "id": "vp4", "name": "Pike Push-Ups", "equipment": "Bodyweight", "difficulty": "Intermediate" }
+      ]
+    },
+    {
+      "type": "Vertical Pull",
+      "description": "Pulling weight down from above.",
+      "workouts": [
+        { "id": "vl1", "name": "Pull-Ups", "equipment": "Pull-up Bar", "difficulty": "Advanced" },
+        { "id": "vl2", "name": "Lat Pulldowns", "equipment": "Cable Machine", "difficulty": "Beginner" },
+        { "id": "vl3", "name": "Chin-Ups", "equipment": "Pull-up Bar", "difficulty": "Intermediate" },
+        { "id": "vl4", "name": "Neutral Grip Pulldowns", "equipment": "Cable Machine", "difficulty": "Beginner" }
+      ]
+    },
+    {
+      "type": "Isolation",
+      "description": "Single-joint movements for specific muscle groups.",
+      "workouts": [
+        { "id": "is1", "name": "Bicep 21s", "equipment": "Barbell or EZ Bar", "difficulty": "Intermediate" },
+        { "id": "is2", "name": "Tricep Overhead Extension", "equipment": "Dumbbell", "difficulty": "Beginner" },
+        { "id": "is3", "name": "Lateral Raises", "equipment": "Dumbbells", "difficulty": "Beginner" },
+        { "id": "is4", "name": "Face Pulls", "equipment": "Cable Machine", "difficulty": "Beginner" },
+        { "id": "is5", "name": "Hammer Curls", "equipment": "Dumbbells", "difficulty": "Beginner" }
+      ]
+    }
+  ]
+}

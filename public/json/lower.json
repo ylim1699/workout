@@ -1,0 +1,55 @@
+{
+  "lower_body_categories": [
+    {
+      "type": "Knee Dominant (Squat)",
+      "description": "Primary focus on the quadriceps and overall leg power.",
+      "workouts": [
+        { "id": "lb_sq1", "name": "Barbell Back Squat", "equipment": "Barbell, Squat Rack", "difficulty": "Advanced" },
+        { "id": "lb_sq2", "name": "Goblet Squat", "equipment": "Dumbbell or Kettlebell", "difficulty": "Beginner" },
+        { "id": "lb_sq3", "name": "Leg Press", "equipment": "Leg Press Machine", "difficulty": "Beginner" },
+        { "id": "lb_sq4", "name": "Hack Squat", "equipment": "Hack Squat Machine", "difficulty": "Intermediate" }
+      ]
+    },
+    {
+      "type": "Hip Dominant (Hinge)",
+      "description": "Focusing on the posterior chain: glutes and hamstrings.",
+      "workouts": [
+        { "id": "lb_hi1", "name": "Conventional Deadlift", "equipment": "Barbell", "difficulty": "Advanced" },
+        { "id": "lb_hi2", "name": "Romanian Deadlift (RDL)", "equipment": "Dumbbells or Barbell", "difficulty": "Intermediate" },
+        { "id": "lb_hi3", "name": "Kettlebell Swings", "equipment": "Kettlebell", "difficulty": "Intermediate" },
+        { "id": "lb_hi4", "name": "Good Mornings", "equipment": "Barbell", "difficulty": "Advanced" }
+      ]
+    },
+    {
+      "type": "Unilateral (Single Leg)",
+      "description": "Correcting imbalances and improving stability.",
+      "workouts": [
+        { "id": "lb_un1", "name": "Bulgarian Split Squats", "equipment": "Dumbbells, Bench", "difficulty": "Intermediate" },
+        { "id": "lb_un2", "name": "Walking Lunges", "equipment": "Dumbbells or Bodyweight", "difficulty": "Beginner" },
+        { "id": "lb_un3", "name": "Step-Ups", "equipment": "Box or Bench", "difficulty": "Beginner" },
+        { "id": "lb_un4", "name": "Single-Leg Press", "equipment": "Leg Press Machine", "difficulty": "Intermediate" }
+      ]
+    },
+    {
+      "type": "Posterior Isolation",
+      "description": "Targeted movements for glutes, hams, and calves.",
+      "workouts": [
+        { "id": "lb_pi1", "name": "Glute Bridges/Hip Thrusts", "equipment": "Barbell, Bench", "difficulty": "Intermediate" },
+        { "id": "lb_pi2", "name": "Lying Leg Curls", "equipment": "Leg Curl Machine", "difficulty": "Beginner" },
+        { "id": "lb_pi3", "name": "Standing Calf Raises", "equipment": "Calf Machine", "difficulty": "Beginner" },
+        { "id": "lb_pi4", "name": "Glute Kickbacks", "equipment": "Cable Machine", "difficulty": "Beginner" },
+        { "id": "lb_pi5", "name": "Seated Calf Raises", "equipment": "Calf Machine", "difficulty": "Beginner" }
+      ]
+    },
+    {
+      "type": "Explosive / Plyometric",
+      "description": "Building speed and fast-twitch muscle fiber.",
+      "workouts": [
+        { "id": "lb_ex1", "name": "Box Jumps", "equipment": "Plyo Box", "difficulty": "Intermediate" },
+        { "id": "lb_ex2", "name": "Broad Jumps", "equipment": "Bodyweight", "difficulty": "Intermediate" },
+        { "id": "lb_ex3", "name": "Jump Squats", "equipment": "Bodyweight", "difficulty": "Beginner" },
+        { "id": "lb_ex4", "name": "Power Cleans", "equipment": "Barbell", "difficulty": "Advanced" }
+      ]
+    }
+  ]
+}
