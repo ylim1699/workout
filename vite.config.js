@@ -5,8 +5,9 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: "/workout/",
-  root: 'src',           
+  base: "/workout/",        
+  root: "src",
+  envDir: "./",
 
   build: {
     outDir: "../docs",
